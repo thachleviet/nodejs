@@ -1,0 +1,23 @@
+ENV =
+# Database connection main
+DB_USER_MAIN=
+DB_PASSWORD_MAIN=
+DB_HOST_MAIN=
+DB_NAME_MAIN=
+
+# Database connection product
+DB_USER_PRODUCT=root
+DB_PASSWORD_PRODUCT=
+DB_HOST_PRODUCT=localhost
+DB_NAME_PRODUCT=alireview_products
+
+
+# Redis connection
+REDIS_HOSTNAME=127.0.0.1
+REDIS_USERNAME=root
+REDIS_PASSWORD=
+
+# Sentry tracker
+SENTRY_DNS=
+
+API_BACKEND=http://127.0.0.1/api
