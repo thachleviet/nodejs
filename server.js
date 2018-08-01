@@ -5,7 +5,7 @@ const Log = require("./logging");
 const port = process.env.PORT || 3000;
 const app = express();
 const { create_product } = require("./src/controller/product");
-app.post('/product/create', create_product);
+app.get('/product/create', create_product);
 
 Log.info("Server starting at %s", port);
 

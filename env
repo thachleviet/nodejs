@@ -8,8 +8,8 @@ DB_NAME_MAIN=
 # Database connection product
 DB_USER_PRODUCT=root
 DB_PASSWORD_PRODUCT=
-DB_HOST_PRODUCT=localhost
-DB_NAME_PRODUCT=alireview_products
+DB_HOST_PRODUCT=127.0.0.1
+DB_NAME_PRODUCT=blog_products
 
 
 # Redis connection
